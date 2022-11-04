@@ -1,0 +1,114 @@
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  body::-webkit-scrollbar-track {
+    
+    background-color: #DBDBD9;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6F536F;
+    box-shadow: unset  0 0 6px rgba(255, 255, 255, 0.945);
+  }
+
+.text-color {
+    color: #6F536F !important;
+}
+
+.background-body {
+    background: linear-gradient(180deg, #F2F0EF 0%, #DBDBD9 100%);
+}
+
+.background-white {
+    background-color: white;
+}
+
+.btn-header {
+    background: white;
+    border: 0px none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6F536F;
+    font-size: 14px;
+    letter-spacing: 0.09px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.btn-card {
+    background: none;
+    border: 2px solid #6F536F;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6F536F;
+    font-size: 14px;
+    letter-spacing: 0.09px;
+    font-weight: 500;
+}
+
+.btn-card:hover {
+    box-shadow: inset  5px 5px 5px rgba(0, 0, 0, 0.123);
+    color: #6F536F;
+    
+}
+
+
+.skill-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.skill-tittle {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing:-0.19px;
+}
+
+.img-max {
+    max-width: 70px;
+    width: 100%;
+}
+
+.img-service {
+    max-width: 130px;
+    width: 100%;
+}
+
+.position-header-left {
+    margin-left: -0rem !important;
+    margin-top: -3rem !important;
+}
+
+.position-header-right {
+    position: absolute;
+    right: 0%;
+    /* margin-right: -50% !important; */
+    margin-top: 4rem !important;
+    z-index: 0;
+}
+
+.logo-animation {
+    animation-name: slide-right;
+    animation-duration: 1s;
+}
+
+@keyframes slide-right {
+    from {
+    margin-left: -100%;
+    }
+    50% {
+    margin-left: 100px;
+    }
+    to {
+    margin-left: 0px;
+    }
+    
+    }
